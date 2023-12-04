@@ -8,7 +8,32 @@
 </head>
 <body>
 
-    <div class="pokedex-container" id="pokedexContainer"></div>
+    <div class="tabs">
+        <button onclick="changeTab('pokedexTab')">Pokedex</button>
+        <button onclick="changeTab('itemsTab')">Items</button>
+        <button onclick="changeTab('movesTab')">Moves</button>
+        <button onclick="changeTab('typesTab')">Types</button>
+    </div>
+
+    <div class="content" id="pokedexTab">
+        <h2>Pokedex</h2>
+        <div class="pokedex-container" id="pokedexContainer"></div>
+    </div>
+
+    <div class="content" id="itemsTab">
+        <h2>Items</h2>
+        <div class="items-container" id="itemsContainer"></div>
+    </div>
+
+    <div class="content" id="movesTab">
+        <h2>Moves</h2>
+        <div class="moves-container" id="movesContainer"></div>
+    </div>
+
+    <div class="content" id="typesTab">
+        <h2>Types</h2>
+        <div class="types-container" id="typesContainer"></div>
+    </div>
 
     <script src="script.js"></script>
 </body>
