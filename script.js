@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
     ])
     .then(data => {
         const [pokedexData, typesData, movesData, itemsData] = data;
-        displayPokedex(pokedexData, typesData, movesData, itemsData);
+        displayPokedex(pokedexData);
         displayItems(itemsData);
         displayMoves(movesData);
         displayTypes(typesData);
